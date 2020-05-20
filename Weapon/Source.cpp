@@ -32,7 +32,7 @@ public:
 		bullets = max_bullets;
 	}
 
-	void Save()
+	void Save() const
 	{
 		ofstream fout;
 		fout.open("Saves.txt",ios_base::app);  // , fstream::app
